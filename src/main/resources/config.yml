@@ -1,0 +1,32 @@
+# -------------------------------------------------------------------------------------
+
+# Enable or disable Ad Block, if it is set to false, everything bellow is ignored
+enable-adblock: true
+
+# -------------------------------------------------------------------------------------
+
+# If is true, the plugin is going to log in the console the message listed below
+notify-console: true
+
+# Messages
+# If you want to customize it, use "%command%" for the blocked command and
+# %amount% for the total amount ot blocked ads in the current session
+blocked-ad: "\n------------------------------------------------\n\n
+            - !! ADVERTISEMENT DETECTED AND BLOCKED !!\n
+            - Command executed: %command%\n
+            - Amount of advertisement blocked in this session: %amount%
+            \n\n------------------------------------------------"
+
+# -------------------------------------------------------------------------------------
+
+# This is the command that the plugin will be listening, mostly of the
+# rented servers throw ads with the command "/say", so if you don't know
+# what is this, just leave it as "say".
+command-keyword: "say"
+
+# Disallowed AD commands here. Color codes are not necessary in this list.
+disallowed-ads:
+  - "Server.pro - Free Game Hosting. Upgrade to remove ads."
+  - "Server will expire in 10 minutes. To continue playing renew your server at Server.pro"
+  - "Server will expire in 5 minutes. To continue playing renew your server at Server.pro"
+  - "Server will expire in 1 minute. To continue playing renew your server at Server.pro"

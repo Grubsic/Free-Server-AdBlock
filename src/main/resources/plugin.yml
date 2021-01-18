@@ -1,0 +1,9 @@
+main: com.github.grubsic.fsa.FSA
+name: FreeServerAdBlock
+version: ${project.version}
+description: ${project.description}
+api-version: 1.13
+load: STARTUP
+author: Grubsic
+website: ${project.url}
+prefix: Free Server AdBlock
