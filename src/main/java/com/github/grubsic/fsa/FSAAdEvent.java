@@ -10,7 +10,7 @@ import org.bukkit.event.server.ServerCommandEvent;
 public class FSAAdEvent implements Listener{
 
 	private final Configuration config;
-	private String commandKeyword;
+	private final String commandKeyword;
 
 	public FSAAdEvent(Configuration config){
 		this.config = config;
