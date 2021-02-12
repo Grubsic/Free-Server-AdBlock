@@ -18,9 +18,11 @@ public class FSA extends JavaPlugin{
 
 		if(config.getBoolean("enable-adblock")){
 			disallowedAds = config.getStringList("disallowed-ads");
-			this.getServer().getPluginManager().registerEvents(new FSAAdEvent(this.getConfig()), this);
+			this.getServer().getPluginManager().registerEvents(new Event(this.getConfig()), this);
 		}
-		else{ this.onDisable(); }
+		else{ this.getPluginLoader().disablePlugin(this); }
+
+		this.getCommand("fsa").setExecutor(new FSACommand());
 	}
 
 	public static List<String> getDisallowedAds(){ return disallowedAds; }

@@ -7,3 +7,8 @@ load: STARTUP
 author: Grubsic
 website: ${project.url}
 prefix: Free Server AdBlock
+
+commands:
+  fsa:
+    description: Main command.
+    usage: /fsa <option>
