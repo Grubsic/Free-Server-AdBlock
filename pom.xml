@@ -6,7 +6,7 @@
 
     <groupId>com.github.grubsic.fsa</groupId>
     <artifactId>free-server-adblock</artifactId>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <packaging>jar</packaging>
     <name>Free Server AdBlock</name>
     <description>Small plugin to block ads from free rented Minecraft servers</description>
