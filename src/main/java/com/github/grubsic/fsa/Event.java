@@ -7,12 +7,12 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerCommandEvent;
 
-public class FSAAdEvent implements Listener{
+public class Event implements Listener{
 
 	private final Configuration config;
 	private final String commandKeyword;
 
-	public FSAAdEvent(Configuration config){
+	public Event(Configuration config){
 		this.config = config;
 		commandKeyword = config.getString("command-keyword");
 	}
